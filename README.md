@@ -21,5 +21,5 @@
 5. Запустите приложение: docker-compose up -d
 6. Тестирование приложения реализовано при помощи коллекции Postman. После запуска приложения, импортируйте и запустите
    коллекцию в Postman. Коллекция находится в папке [/postman](/postman)
-7. Документация доступна в папку [/documentation](/documentation). Ее можно открыть в Swagger Editor
+7. Документация доступна в папке [/documentation](/documentation). Ее можно открыть в Swagger Editor
 8. Swagger UI доступен после запуска приложения по ссылке: http://localhost:8080/swagger-ui
