@@ -114,7 +114,7 @@ public class TaskController {
     @GetMapping(value = "/tasks/others", produces = MediaType.APPLICATION_JSON_VALUE)
     @SecurityRequirement(name = "JWT")
     @Operation(summary = "Получение всех задач других пользователей", description = "Позволяет получить все задачи " +
-            " других пользователей. Поддерживает пагинацию")
+            "других пользователей. Поддерживает пагинацию")
     @ApiResponses(value =
             {@ApiResponse(responseCode = "200", description = "Задачи найдены",
                     useReturnTypeSchema = true),

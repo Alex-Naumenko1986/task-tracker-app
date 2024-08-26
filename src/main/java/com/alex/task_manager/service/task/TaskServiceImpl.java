@@ -84,6 +84,7 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
+    @Transactional
     public List<TaskEntity> filterByAuthorAndPerformer(String authorEmail, String performerEmail, int page, int size) {
         List<Predicate> predicates = new ArrayList<>();
 

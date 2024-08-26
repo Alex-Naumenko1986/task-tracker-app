@@ -17,7 +17,7 @@
 1. Для запуска проекта на компьютере должен быть установлен Docker: https://docs.docker.com/engine/install/
 2. Клонируйте репозиторий: git clone https://github.com/Alex-Naumenko1986/task-tracker-app.git
 3. Перейдите в папку с проектом
-4. Выполните команду mvn install
+4. Выполните команду mvn clean install для сборки jar-файла
 5. Запустите приложение: docker-compose up -d
 6. Тестирование приложения реализовано при помощи коллекции Postman. После запуска приложения, импортируйте и запустите
    коллекцию в Postman. Коллекция находится в папке [/postman](/postman)
